@@ -5,10 +5,9 @@ body {
     background-color: rgb(94, 94, 94);
     color: white;
     margin: 0px;
-
 }
 
-h1 {
+.banner {
     text-align: center;
     background-color: lightblue;
     font-weight: bold;
@@ -46,4 +45,12 @@ h1 {
     li {
         float: left;
     }
+}
+
+.map {
+    width: 100%;  
+    max-width: 500px;  
+    height: auto; 
+    display: block;  
+    margin: 0 auto; 
 }
