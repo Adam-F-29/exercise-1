@@ -52,5 +52,21 @@ body {
     max-width: 500px;  
     height: auto; 
     display: block;  
-    margin: 0 auto; 
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+br {
+    margin-top: 5px;
+}
+
+p {
+    padding: 5px 10px 5px 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-bottom: 1px;
 }
