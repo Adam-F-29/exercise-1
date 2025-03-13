@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 body {
-    font-family: "Roboto Condensed", Arial;
     background-color: rgb(94, 94, 94);
     color: white;
     margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    font-family: "Roboto Condensed", Arial;
 }
 
 .banner {
@@ -56,6 +62,20 @@ body {
     border-radius: 15px;
 }
 
+@media only screen and (min-width: 800px) {
+    .left-column {
+        float: left;
+        width: 70%;
+    }
+
+    .right-column {
+        float: right;
+        width: 30%;
+    }
+}
+    
+
+
 br {
     margin-top: 5px;
 }
@@ -69,4 +89,6 @@ footer {
     color: white;
     width: 100%;
     padding-bottom: 1px;
+    margin-top: auto;
+    font: Arial;
 }
