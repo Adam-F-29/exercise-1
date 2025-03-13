@@ -60,6 +60,8 @@ main {
     display: block;  
     margin: 0 auto;
     border-radius: 15px;
+    float: right;
+    margin-right: 10px;
 }
 
 @media only screen and (min-width: 800px) {
@@ -73,14 +75,12 @@ main {
         width: 30%;
     }
 }
-    
-
 
 br {
     margin-top: 5px;
 }
 
-p {
+p, h2 {
     padding: 5px 10px 5px 10px;
 }
 
@@ -91,4 +91,5 @@ footer {
     padding-bottom: 1px;
     margin-top: auto;
     font: Arial;
+    font-size: 12px;
 }
