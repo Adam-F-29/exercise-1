@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> <!-- Bootstrap link-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
 </head>
 <body>
-    
+    <main>
+        <h1 class="banner">Alness</h1>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html" style="color: grey;">Home Page</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+        </nav>
+        <br><br> <!-- This isn't working -->
+        <h2>Welcome to Alness!</h2>
+        <p>Alness, located on the east coast of Scotland, in the Highlands, is the home for some 6,000 people. Just over 20 miles from Inverness, the capital city of the Highlands, and 4 miles from Invergordon, a port town that regularly accommodates cruise ships docking there, Alness offers a quality escape while still having the comfort of nature and urban life at your finger tips.</p>
+        <div class="left-column">
+            <h3>Travel</h3>
+            <p>Transport is frequent to and from Alness. Coming from Inverness; buses are frequent coming every 30 minutes or so. There are also frequent taxi services from the city centre that can take you to Alness, or to explore the surrounding area such as Loch Ness.</p>
+            <p>Inverness, being the main hub to the Highlands, is home to an airport allowing people from all over the globe to come and visit the wildlife of the Highlands. Whether you are travelling from London, England or London, Canada, the airport likely has you covered for all your travel needs in the air.</p>
+        </div>
+        <div class="right-column">
+            <img src="images/map.png" alt="Map of Alness" class="map">
+        </div>
+        <!--For some reason this doesn't display correctly. No idea why-->
+        <!--Fixed it.-->
+        <p>For more information please consult local bus and train times</p>
+        <br>
+        <section>
+            <h3>Accommodation</h3>
+            <p>Alness is home to the Station Hotel which is a quality bed and breakfast right at the heart of the highstreet for low costs. Also offering a restaurant and bar with a plethora of desserts to choose from. Tables are also able to be booked in advance should you like to catch up with family while visiting Alness, or just to ensure a spot for dinner.</p>
+            <p>More information can be found on their website <a href="https://stationhotelalness.com/" target="_blank">here</a></p>
+        </section>
+        
+
+        
+    </main>
+    <footer>
+        <p>Source for map | <a href="https://www.openstreetmap.org" target="_blank">Open Street Map</a></p>
+    </footer>
 </body>
-<footer>
-    
-</footer>
+
 </html>
